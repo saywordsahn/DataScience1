@@ -6,6 +6,7 @@ pd.set_option('display.max_columns', 50)
 file_path = 'melb_data.csv'
 
 data = pd.read_csv(file_path)
+print(data)
 data = data.dropna(axis=0)
 # print(data.describe())
 # print(data.columns)

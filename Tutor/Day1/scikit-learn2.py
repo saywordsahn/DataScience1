@@ -19,7 +19,7 @@ model.fit(x, y)
 # ['Rooms', 'Bathroom', 'Landsize', 'BuildingArea',
 #                         'YearBuilt', 'Lattitude', 'Longtitude']
 
-# THINK: how can we test for how well our model pricts?
+# THINK: how can we test for how well our model prices?
 # Simple way is Mean Absolute Error (MAE)
 # error = actual - predicted
 # MAE = sum of absolute values of errors / n
